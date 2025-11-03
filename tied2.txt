@@ -1,1 +1,2 @@
 muokattu
+git add -p tsit
