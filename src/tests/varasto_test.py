@@ -5,7 +5,7 @@ from varasto import Varasto
 def test_lisataan_liikaa():
     varasto = Varasto(10)
     varasto.lisaa_varastoon(20)
-    assert varasto.saldo == 10000
+    assert varasto.saldo == 10
 
 
 def test_negatiivinen_lisays_ei_muuta_saldoa():
